@@ -31,7 +31,7 @@ bot.start((ctx) => {
     ctx.reply(`Soo dhawoow ${ctx.from.first_name}, Taabo battanka hoose si aad ugu shid website-ka`, {
         reply_markup: {
             inline_keyboard: [
-                [{ text: '🛍 Shop', web_app: { url: 'https://mohashop.onrender.com'}}]
+                [{ text: '🛍 Shop', web_app: { url: 'https://mohashop.vercel.app'}}]
             ]
         }
     })
