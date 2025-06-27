@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
     level: {type: Number, default: 1},
     level_exp: { type: Number, default: 0},
     requests: { type: [mongoose.Schema.Types.Mixed], default: [] },
+    messages: { type: [mongoose.Schema.Types.Mixed], default: [] },
     thread_id: { type: Number}
 });
 userSchema.index({ id: 1 }, { unique: true });
